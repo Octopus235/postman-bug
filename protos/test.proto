@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package test.v1;
+
+service Test {
+  rpc ReturnBoolean (TestRequest) returns (TestResponse) {}
+}
+
+message TestRequest {
+  bool some_value = 1;
+}
+
+message TestResponse {
+  bool some_value = 1;
+}
