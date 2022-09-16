@@ -4,4 +4,4 @@
 3. Run server: `yarn start`
 
 ## How to use
-You can send a boolean value to the server in the `some_value` field. The server will return the same value in `some_value` field. 
+You can send a boolean value to the server in the `some_value` field. The server will return the same value in the `some_value` field. 
